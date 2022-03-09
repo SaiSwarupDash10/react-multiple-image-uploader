@@ -123,7 +123,7 @@ const RMIUploader: React.FC<RMIUploaderProps> = ({
             )}
           </ImageUploading>
         </Col>
-        <Col span={14}>
+<!--         <Col span={14}>
           <div className="media-library">
             {dataSources.map((img, index) => {
               const includeImage = selectedImages.find((image) => {
@@ -170,7 +170,7 @@ const RMIUploader: React.FC<RMIUploaderProps> = ({
             Insert into post
           </Button>
         </Col>
-      </Row>
+      </Row> -->
     </Card>
   );
 };
